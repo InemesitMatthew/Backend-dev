@@ -223,7 +223,6 @@ class _CardDetailsScreenState extends State<CardDetailsScreen> {
                           ],
                         ),
                         context.verticalSpace(24),
-                        // DESIGN DECISION
                         PaymentTextField(
                           controller: _nameController,
                           labelText: 'Cardholder\'s Name',

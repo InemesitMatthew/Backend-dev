@@ -75,7 +75,6 @@ class _ApartmentDetailsScreenState extends State<ApartmentDetailsScreen> {
                           children: [
                             Column(
                               children: [
-                                // DESIGN DECISION
                                 Image.asset(
                                   details.imageUrl,
                                   height: heroHeight,
@@ -96,7 +95,6 @@ class _ApartmentDetailsScreenState extends State<ApartmentDetailsScreen> {
                                     Row(
                                       crossAxisAlignment: .start,
                                       children: [
-                                        // DESIGN DECISION
                                         Image.asset(
                                           Assets.dollarIcon,
                                           width: 35,
@@ -238,7 +236,6 @@ class _ApartmentDetailsScreenState extends State<ApartmentDetailsScreen> {
                                       ),
                                     ),
                                     context.horizontalSpace(8),
-                                    // DESIGN DECISION
                                     GestureDetector(
                                       onTap: () {
                                         final BuildContext? targetContext =
